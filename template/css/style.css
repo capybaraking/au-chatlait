@@ -16,13 +16,23 @@ nav .brand-logo {
 
 }
 
-.title{
-  background-color:white;
-  width:60%;
+#box1{
+  background-color:#f1a329;
+}
+
+#box3{
+  background-color:#aab7c5;
 }
 
 #propose{
   padding-top:70px;
+}
+
+.container-menu { 
+  margin: 0;
+  width: 100%; 
+  padding-left:20%;
+  padding-right:20%;
 }
 
 p {
