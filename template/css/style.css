@@ -11,6 +11,20 @@ nav .brand-logo {
   color: #444;
 }
 
+.navbar{
+  background-color:#aab7c5;
+
+}
+
+.title{
+  background-color:white;
+  width:60%;
+}
+
+#propose{
+  padding-top:70px;
+}
+
 p {
   line-height: 2rem;
 }
