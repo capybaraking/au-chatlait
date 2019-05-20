@@ -11,11 +11,6 @@ nav .brand-logo {
   color: #444;
 }
 
-nav{
-  position:fixed;
-  z-index: 999;
-}
-
 .navbar{
   background-color:#aab7c5;
 
@@ -27,6 +22,44 @@ nav{
 
 #two{
   background-image:url("../../img/movies/orange.jpg");
+}
+
+#three{
+  background-image:url("../../img/movies/pile.jpg");
+}
+
+
+.img__wrap {
+  position: relative;
+  float:left;
+  margin-right:10px;
+}
+
+.img__description {
+  position: absolute;
+  top: -15px;
+  bottom: -15px;
+  left: 0;
+  right: 0;
+  padding-top:20px;
+  background: rgba(255, 255, 255, 0.72);
+  color: #000;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.carousel2{
+  bottom:100px;
+  padding-left:10%;
+}
+
+#fl{
+  clear:both;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
 }
 
 .carousel-item{
