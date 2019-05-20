@@ -1,4 +1,25 @@
 (function($){
+
+  $(document).ready(function(){
+    
+    $('.carousel').carousel(
+    {
+      dist: 0,
+      padding: 0,
+      fullWidth: true,
+      indicators: true,
+      duration: 100,
+    }
+    );
+    autoplay()   
+  function autoplay() {
+      $('.carousel').carousel('next');
+      setTimeout(autoplay, 4500);
+  }
+  });
+  
+  
+
   $(function(){
 
     $('.sidenav').sidenav();
@@ -32,6 +53,7 @@
     markerP2.bindPopup("<b>Parking 2</b><br>Ecole XXX").openPopup();
 
     markerP1.bindPopup("<b>Parking 1</b><br>Charles III").openPopup();
+          
 
 
   }); // end of document ready

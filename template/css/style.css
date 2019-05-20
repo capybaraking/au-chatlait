@@ -21,6 +21,19 @@ nav{
 
 }
 
+#one{
+  background-image:url("../../img/movies/piano.jpg");
+}
+
+#two{
+  background-image:url("../../img/movies/orange.jpg");
+}
+
+.carousel-item{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #box1{
   background-color:#f1a329;
 }
