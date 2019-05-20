@@ -11,6 +11,11 @@ nav .brand-logo {
   color: #444;
 }
 
+nav{
+  position:fixed;
+  z-index: 999;
+}
+
 .navbar{
   background-color:#aab7c5;
 
