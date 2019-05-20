@@ -29,6 +29,11 @@ nav .brand-logo {
 
 }
 
+#mapid { 
+  height:300px;
+  margin:0;
+ }
+
 #propose{
   padding-top:70px;
 }
