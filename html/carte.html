@@ -215,7 +215,58 @@
                     </div>
                   
               </div>
-
+  
+           <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Proposer une diffusion</h4>
+        <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="first_name" type="text" class="validate">
+                  <label for="first_name">Prénom</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Nom</label>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="date" type="text" class="datepicker">
+                      <label for="date">Date de diffusion souhaitée</label>
+                    </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="description" placeholder="Description de votre film, documentaire etc." class="materialize-textarea"></textarea>
+                      <label for="textarea1">Description</label>
+                    </div>
+              
+              </div>
+              <div class="row">
+                  <div class="input-field col s12">
+                    <textarea id="lien" placeholder="Lien de téléchargement vers votre production." class="materialize-textarea"></textarea>
+                    <label for="lien">Lien</label>
+                  </div>
+              
+            </div>
+          </div>
+          
+      <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Valider</a>
+        </div>
+      </div>
+            </form>
+          </div>
+      </div>
+      
 
   <footer class="page-footer orange">
         <div class="container">
@@ -236,7 +287,7 @@
                     </ul>
                   </div>
                   <div class="col l3 s12" id="propose">
-                      <a class="waves-effect white grey-text btn pulse"><i class="material-icons left">favorite</i>Proposer une diffusion</a>
+                      <a class="waves-effect white grey-text btn pulse modal-trigger" href="#modal1"><i class="material-icons left">favorite</i>Proposer une diffusion</a>
                   </div>
                 </div>
               </div>

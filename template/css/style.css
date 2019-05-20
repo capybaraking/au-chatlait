@@ -50,11 +50,13 @@ nav .brand-logo {
 
 .carousel2{
   bottom:100px;
-  padding-left:10%;
+  padding-left:15%;
 }
 
 #fl{
   clear:both;
+  padding-top:50px;
+  padding-bottom:50px;
 }
 
 .img__wrap:hover .img__description {
@@ -139,4 +141,8 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+#modal1{
+  height: 80%;
 }
