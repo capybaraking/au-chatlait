@@ -28,6 +28,16 @@ nav .brand-logo {
   background-image:url("../../img/movies/pile.jpg");
 }
 
+/* label focus color */
+.input-field input:focus + label {
+  color: orange !important;
+}
+/* label underline focus color */
+.row .input-field input:focus {
+  border-bottom: 1px solid orange !important;
+  box-shadow: 0 1px 0 0 orange !important
+}
+
 
 .img__wrap {
   position: relative;
@@ -89,6 +99,22 @@ nav .brand-logo {
 
 #propose{
   padding-top:70px;
+}
+
+.logo{
+  width:40px;
+  float:left;
+  margin-right:10px;
+}
+
+.clear{
+  clear:both;
+}
+
+.eqp{
+  float:left;
+  margin-top:10px;
+  margin-right:20px;
 }
 
 .container-menu { 
