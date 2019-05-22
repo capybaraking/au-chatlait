@@ -38,6 +38,13 @@ nav .brand-logo {
   box-shadow: 0 1px 0 0 orange !important
 }
 
+#toast-container {
+  top: auto !important;
+  right: 7% !important;
+  bottom: 10%;
+  left:auto !important;  
+}
+
 
 .img__wrap {
   position: relative;
